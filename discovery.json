@@ -1,0 +1,19 @@
+{
+    "botman/driver-config": [
+        "stubs/line.php"
+    ],
+    "botman/driver": [
+        "BotMan\\Drivers\\Line\\LineDriver",
+        "BotMan\\Drivers\\Line\\LineAudioDriver",
+        "BotMan\\Drivers\\Line\\LineFileDriver",
+        "BotMan\\Drivers\\Line\\LineImageDriver",
+        "BotMan\\Drivers\\Line\\LineLocationDriver",
+        "BotMan\\Drivers\\Line\\LineVideoDriver"
+    ],
+    "botman/commands": [
+        "BotMan\\Drivers\\Line\\Commands\\AddPersistentMenu",
+        "BotMan\\Drivers\\Line\\Commands\\AddStartButtonPayload",
+        "BotMan\\Drivers\\Line\\Commands\\AddGreetingText",
+        "BotMan\\Drivers\\Line\\Commands\\WhitelistDomains"
+    ]
+}
